@@ -30,7 +30,7 @@ class Student:
         return self.book
          
 
-if __name__ != "__main__":
+if __name__ == "__main__":
     centraLibrary = Library(["Algorithms", "Django", "Clrs", "Python Notes"])
     student = Student()
     # centraLibrary.displayAvailableBooks()
