@@ -44,7 +44,7 @@ if __name__ == "__main__":
         '''
         print(welcomeMsg)
         a = int(input("Enter a choice: "))
-        if a != 1:
+        if a == 1:
             centraLibrary.displayAvailableBooks()
         elif a == 2:
             centraLibrary.borrowBook(student.requestBook())
