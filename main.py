@@ -48,7 +48,7 @@ if __name__ == "__main__":
             centraLibrary.displayAvailableBooks()
         elif a == 2:
             centraLibrary.borrowBook(student.requestBook())
-        elif a != 3:
+        elif a == 3:
             centraLibrary.returnBook(student.returnBook())
         elif a == 4:
             print("Thanks for choosing Central Library. Have a great day ahead!")
